@@ -1,0 +1,67 @@
+body {
+    overflow: hidden;
+}
+
+.content {
+    border: 1px solid black;
+    margin: 0px auto;
+    width: 400px;
+    height: 400px;
+}
+
+.left {
+    border-right: 1px solid black;
+    width: 70%;
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+.right {
+    width: 29%;
+    float: right;
+}
+
+.view {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    position: relative;
+}
+
+.level {
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.score {
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.block {
+    position: absolute;
+}
+
+#startBtn {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+.info {
+    margin: 0px auto;
+    width: 540px;
+    height: 400px;
+}
+
+.info li {
+    line-height: 30px;
+}
+
+.gamename {
+    margin-left: 30;
+}
